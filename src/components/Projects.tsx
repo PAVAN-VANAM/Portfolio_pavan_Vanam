@@ -20,7 +20,7 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: '1',
-      title: 'E-commerce Platform',
+      title: 'AI - E-commerce Platform',
       description: 'Designed and developed a scalable e-commerce platform that integrates AI-powered Retrieval-Augmented Generation (RAG) for intelligent product recommendations and customer support. The system architecture leverages microservices, GraphQL APIs, and Next.js for server-side rendering and dynamic product pages. Integrated a vector database (like Pinecone/FAISS) with RAG to enable real-time, context-aware query resolution and personalized user interaction.',
       tags: ['React', 'Node.js', 'MongoDB','Qudrant','Express.JS', 'Microservices'],
       imageUrl: './Ecomerce.png',
@@ -29,7 +29,7 @@ const Projects = () => {
     },
     {
       id: '2',
-      title: 'Task Management App',
+      title: 'Food Ordered System',
       description: 'Engineered a food ordering system for pizza delivery with real-time tracking, dynamic menu customization, and secure checkout. Built with Spring Boot (Java) for backend services, Next.js frontend, and integrated with Apache Kafka, Redis, and Cassandra DB to ensure low-latency and fault tolerance. Focused on high availability and distributed architecture to support spikes in user demand.',
       tags: ['React', 'TypeScript', 'NextJS' , 'Spring' , 'SpringBoot' , 'JAVA' , 'Cassandra' , 'Hibernate', ' Redis' , 'Apache Kafaka'],
       imageUrl: './Food.png',
